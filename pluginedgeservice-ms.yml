@@ -1,0 +1,9 @@
+plugin:
+  name: LNTestPlugin
+  policies:
+    loadBalancer:
+      rule: XXXX
+    circuitBreaker:
+      loadFactor: 1.38
+      failOver:
+        strategy: XXXX
